@@ -1,0 +1,242 @@
+body {
+    background-color: #eefffe;
+    margin: 0px;
+    border: 0px;
+}
+
+header {
+    padding-top: 0px;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100%;
+}
+
+.home {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+}
+
+h1 {
+    font-family: "special elite";
+    text-align: center;
+    font-size: 3em;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-container {
+    background-color: rgb(213, 255, 241);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-family: montserrat;
+}
+
+nav a:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 6%;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    font-family: montserrat;
+    margin: 0 auto;
+    width: 70%;
+    text-align: justify;
+}
+
+.rij {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.p2 {
+    padding-bottom: 20px;
+}
+
+.hobby {
+    padding: 15px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 4px solid aquamarine;
+    border-radius: 30px;
+    background-color: rgb(213, 255, 241);
+}
+
+.bloktekst {
+    width: 250px;
+}
+
+.playlist {
+    margin: 0 auto;
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+iframe {
+    width: 250px;
+    height: 250px;
+}
+
+.blokfoto {
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+}
+
+img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pic {
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+.pic1 {
+    margin: 0 auto;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    display: flex;
+}
+
+.me {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+footer {
+    background-color: aquamarine;
+    height: 100px;
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    main {
+        width: 100vw;
+    }
+}
+
+form input {
+    font-size: 0.9em;
+    font-family: montserrat;
+    background-color: #eefffe;
+    border: 3px solid rgb(85, 232, 183);
+    border-radius: 10px;
+}
+
+h4 {
+    font-size: 2em;
+    padding: 15px;
+    margin: 0px;
+}
+
+.formField {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.formulier {
+    width: 50%;
+    padding: 50px;
+    background-color: rgb(213, 255, 241);
+    margin: 0 auto;
+    border: 4px solid aquamarine;
+    border-radius: 30px;
+    font-family: montserrat;
+    margin-top: 5%;
+}
+
+.checkbox {
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+button {
+    margin: 20px;
+    padding: 15px;
+    font-size: 1em;
+    font-family: montserrat;
+    background-color: #eefffe;
+    border: 4px solid rgb(85, 232, 183);
+    border-radius: 15px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+select {
+    font-size: 0.9em;
+    font-family: montserrat;
+    background-color: #eefffe;
+    border: 3px solid rgb(85, 232, 183);
+    border-radius: 10px;
+}
+
+.thanks {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gif {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    padding: 5%;
+}
+
+.contactme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.contactme a {
+    color: black;
+    text-decoration: none;
+    font-family: montserrat;
+    padding: 10px;
+}
+
+
